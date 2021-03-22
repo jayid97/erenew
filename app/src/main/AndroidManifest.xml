@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.erenew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".appintro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".donepayment"
+            android:label="Status Telah Dibayar"
+            android:theme="@style/NoActionBar" />
+        <activity android:name=".resetPass" />
+        <activity
+            android:name=".plan2"
+            android:label="Etiqa Takaful Insurans"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".plan"
+            android:label="Axa Insurans"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".profileUpdate"
+            android:label="Kemas Kini Profil"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".guidePayment"
+            android:label="Cara Pembayaran"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".failedStat"
+            android:label="Status Gagal"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".statpay"
+            android:label="Status Berjaya"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".statrequest"
+            android:label="Status Permintaan"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".statprocessing"
+            android:label="Status Sedang Diproses"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".checkStat"
+            android:label="Semak Status Kenderaan"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".profile"
+            android:label="Profil"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".vehicleupdate"
+            android:label="Kemas kini Kenderaan"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".checkSummon"
+            android:label="Semak Saman Jpj"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".register"
+            android:label="Daftar Kenderaan"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="Halaman Utama"
+            android:theme="@style/NoActionBar" />
+
+        <meta-data
+            android:name="android:support.PARENT_ACTIVITY"
+            android:value="com.example.erenew.MainActivity" />
+
+        <activity
+            android:name=".signup"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.erenew.MainActivity" />
+        </activity>
+        <activity
+            android:name=".login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value="com.example.erenew.MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

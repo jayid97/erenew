@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "671491845557",
+    "firebase_url": "https://erenew-d58cb.firebaseio.com",
+    "project_id": "erenew-d58cb",
+    "storage_bucket": "erenew-d58cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671491845557:android:248ad58609ac4355",
+        "android_client_info": {
+          "package_name": "com.example.erenew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671491845557-9ouii4orcn9hnommk3fsdmg1ujg9godr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxonKXl46MvwcKhTH_qqCO-Ft6uUW1-n8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671491845557-9ouii4orcn9hnommk3fsdmg1ujg9godr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Halaman Utama" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_motorcycle_black_24dp"
+            android:title="Pendaftaran Kenderaan" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="Semak Status"/>
+        <item
+            android:id="@+id/nav_saman"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Semak Saman " />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profil " />
+
+    </group>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Log Keluar " />
+
+</menu>

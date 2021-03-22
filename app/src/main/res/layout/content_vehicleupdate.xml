@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#ffff"
+    tools:context=".vehicleupdate"
+    tools:showIn="@layout/app_bar_vehicleupdate">
+
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="447dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="160dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/editPlate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangleinput"
+            android:drawableLeft="@drawable/ic_directions_car_black_24dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/open_sans"
+            android:hint="No Plat"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:textColor="#0a0a0a"
+            android:textColorHint="#0a0a0a"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangleinput"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/open_sans"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:textColor="#0a0a0a"
+            android:textColorHint="#0a0a0a" />
+
+        <EditText
+            android:id="@+id/editIc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangleinput"
+            android:drawableLeft="@drawable/ic_portrait_black_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/open_sans"
+            android:hint="No Ic"
+            android:inputType="number"
+            android:paddingStart="15dp"
+            android:textColor="#0a0a0a"
+            android:textColorHint="#0a0a0a" />
+
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rectangleinput"
+            android:drawableLeft="@drawable/ic_phone_black_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/open_sans"
+            android:hint="No Telefon"
+            android:inputType="phone"
+            android:paddingStart="15dp"
+            android:textColor="#0a0a0a"
+            android:textColorHint="#0a0a0a" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/roundshape"
+            android:backgroundTint="#0a0a0a"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Kemas Kini"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

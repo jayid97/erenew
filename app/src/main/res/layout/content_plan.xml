@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a0e24"
+    android:orientation="horizontal"
+    tools:context=".plan"
+    tools:showIn="@layout/app_bar_plan"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+       <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#ffff"
+        app:cardCornerRadius="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+
+            >
+
+            <ImageView
+                android:id="@+id/axa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/axa_logo" />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/axa"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Axa Affin Insurans"
+                android:textColor="#0a0a0a"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title1"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="16dp"
+                android:drawableLeft="@drawable/ic_click_black_24dp"
+                android:drawablePadding="10dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:text="Harga berasaskan risiko (kadar yang berbeza)"
+                android:textColor="#0a0a0a"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="16dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:drawableLeft="@drawable/ic_click_black_24dp"
+                android:drawablePadding="10dp"
+                android:text="Pilihan tambahan dan faedah tambahan"
+                android:textColor="#0a0a0a"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc2"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="16dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:drawableLeft="@drawable/ic_click_black_24dp"
+                android:drawablePadding="10dp"
+                android:text="Kelulusan tuntutan yang pantas"
+                android:textColor="#0a0a0a"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/desc4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc3"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="16dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:drawableLeft="@drawable/ic_click_black_24dp"
+                android:drawablePadding="10dp"
+                android:text="24/7 bantuan jalan kecemasan"
+                android:textColor="#0a0a0a"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc4"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="16dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:drawableLeft="@drawable/ic_click_black_24dp"
+                android:drawablePadding="10dp"
+                android:text="Waranti pembaikan"
+                android:textColor="#0a0a0a"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
